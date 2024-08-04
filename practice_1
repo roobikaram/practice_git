@@ -1,0 +1,61 @@
+package practicemode;
+import java.util.*;
+import java.util.Scanner;
+class AtmMachine{
+	String name;
+	int accountNo;
+	float amount;
+	void get(String n, int acc, float amt) {
+		name = n;
+		accountNo = acc;
+		amount = amt;		
+	}
+	void details() {
+		System.out.println("Account Number: "+ accountNo + "\nAccount Holder: "+ name + "\nAvailable balance: " + amount);
+	}
+	void display() {
+		System.out.println("Check balance press 1, Withdrawn amount press 2, Deposit amount press 3");
+	}
+	void withdraw (float amt) {
+		if (amount<amt) {
+			System.out.print("Insuficient Balance");
+		}
+		else {
+			amount = amount - amt;
+			System.out.print("Rs." +amt +"is Withdrawn. And Available balance is Rs." + amount);
+		}
+	}
+	void deposit(float amt) {
+		amount = amount + amt;
+		System.out.println ("Rs." + amt +" is Deposited. And Available balance is Rs." + amount);
+	}
+	void checkbalance() {
+		System.out.println ("Balance is Rs." + amount);
+	}
+}
+
+public class Atm {
+	public static void main(String[] agrs) {
+		AtmMachine a1 = new AtmMachine();
+		a1.get("Anu Sri", 91800052, 15000);
+		a1.details();
+		a1.display();
+		Scanner a2 = new Scanner(System.in);
+		int a = a2.nextInt();
+		switch(a) {
+		case 1:
+			a1.checkbalance();
+			break;
+		case 2:
+			a1.withdraw(5000);
+			break;
+		case 3:
+			a1.deposit(10000);
+			break;
+		default:
+			System.out.println("Please press the correct number");
+		}
+		
+	}
+
+}
