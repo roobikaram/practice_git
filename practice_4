@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <!-- <style type="text/css">
+        p{
+            color:burlywood;
+            text-align: right;
+            text-decoration: underline;
+            text-decoration-color: aqua;
+        }
+        h3{
+            color: blueviolet;
+            text-shadow: 0ch;
+            text-align: center;
+            text-decoration: underline;
+        }
+    </style> -->
+    <title>Document</title>
+</head>
+<body>
+    <h1>cat photos:</h1>
+    <!-- <h2 style="color:rgb(255, 0, 128);text-decoration: underline;">cat</h2> -->
+    <h2>cat</h2>
+    <h3>cats varieties</h3>
+    <h4>cats home</h4>
+    <h5>cats life time</h5>
+    <h6>cats history</h6>
+    <p>this is a <b>paragraph</b>.</p>
+    <p>cats are very <i>cute</i>.</p>
+    <p>aaa<sup>45</sup>23</p>
+    <p>H<sub>2</sub>O</p>
+    <p id="softdev">
+        Hello,<br /><!-- line break -->
+            I am a software developer.
+            <hr />
+    </p>
+    <p class="greentext"><strong>consult your doctor</strong><br />
+    <em>Do not</em> try this at home</p>
+    <p class="greentext"><q>Winners are <br />
+    not those who <br /> <i><b>never fail</b></i> <br />
+    but those who <br /> <i><b>never quit.</b></i></q><br />
+    <b>-Dr.A.P.J.Abdul Kalam</b></p>
+    <blockquote>Excellence is a continuous process and not an accident.</blockquote>
+    <abbr>NASA</abbr><br />
+    <cite>Dr.A.P.J.Abdul kalam</cite><br />
+    <dfn>The future of the mind</dfn><br />
+    <address>sivaaram@gmail.com</address>
+    <p class="greentext"><del>$1199</del><ins>now $799</ins></p>
+    <s>old number</s>
+    <u>paragraph</u>
+    <h3 class="greentext">List of Ingredients:</h3>
+    <ul class="greentext">
+        <li>Onion</li>
+        <li>Tomato</li>
+        <li>Pumkin</li>
+        <li>Garlic</li>
+    </ul>
+    <h3>Camping Checklist</h3>
+    <ol >
+          <li>Tent</li>
+          <li>Sleeping bag</li>
+          <li>Flash Light</li>
+          <li>Food Items</li>
+          <ul>
+            <li>Fruits</li>
+            <li>Snacks</li>
+          </ul>
+    </ol>
+    <h5>Types of Triangles</h5>
+
+    <div>
+        <p>Have any questions? <a href="">Contact us</a></p>
+    </div>
+
+
+
+    <dl>
+        <dt>Equiangular Triangle</dt>
+        <dd>In geometry, an equilateral triangle is a triangle that has all its sides equal in length. Since the three sides are equal therefore the three angles, opposite to the equal sides, are equal in measure. Therefore, it is also called an equiangular triangle, where each angle measure 60 degrees.</dd>
+        <dt>Isosceles Triangle</dt>
+        <dd>An isosceles triangle is a triangle that has two equal sides and two equal angles opposite the equal sides. The name isosceles triangle comes from the Greek words for same and legs. It is different from an equilateral triangle, which has three equal sides and angles.</dd>
+    </dl>
+</body>
+</html>
